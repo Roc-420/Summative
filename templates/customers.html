@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="{{url_for('static', filename='style2.css')}}">
+
+    <title>Home page</title>
+</head>
+<body>
+    <div class = "main_bar">
+        <a href="" class ="bar_button" > Enter Stock</a>
+        <a href="" class ="bar_button" > Veiw stock</a>
+        <a href="" class ="bar_button" > Add Customer</a>
+        <a href="/customers" class ="bar_button"  style="font-weight: 900;"> Veiw Customer</a>
+        <a href="/transactions" class ="bar_button"  >Transaction History</a>
+        <a href="https://www.bloomberg.com/markets" class ="bar_button" > Bloomberg Markets</a>
+        <a href="/" class ="bar_button" > Log out</a>
+
+
+    </div>
+    <div class ="transaction_bar">
+
+    {% for item in transer %}
+    <div class ="transaction_box">  {{item}}  </div>
+    
+    {% endfor %}
+
+    </div>
+</body>
+</html>

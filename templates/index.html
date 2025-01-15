@@ -4,9 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="{{url_for('static', filename='style.css')}}">
     <title>Login!!!!!!!!!</title>
 </head>
 <body>
-   <p> skibidididi</p> 
+   <div class = "welcome_page"> Welcome to Cool Stox Managment!</div>
+   <img src="{{url_for('static', filename='cool_guy.png')}}" align="middle"  class="cool_guy"/> 
+
+   <form method="post" class ="login_container" >
+    <label for "username"></label>
+    <input type="text" id="username" name="username" class="inputs" maxlength="25" placeholder="Username">
+    <label for "password"></label>
+    <input type="text" id="password" name="password" class="inputs" maxlength="25" placeholder="password">
+    <button type = "submit" class= "login_button">Login!</button>
+   </form>
+
+
+
 </body>
 </html>

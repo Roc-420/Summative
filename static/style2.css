@@ -1,0 +1,51 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient( 45deg,  rgb(22, 151, 225),rgb(40, 13, 56));
+
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_bar {
+    background: rgba(76, 175, 79, 0.349);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.bar_button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:28px ;
+    padding: 2vw;
+    justify-self: left;
+}
+
+
+
+.transaction_bar {
+    padding: 3vw;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: fit-content;
+    justify-self: center;
+    width: 77vw;
+    
+}
+
+.transaction_box {
+    border: 5vw;
+    background: rgba(15, 135, 143, 0.349);
+    border-radius: 0.8;
+    padding: 1.2vw;
+    text-align: center;
+
+}
