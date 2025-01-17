@@ -1,0 +1,41 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="{{url_for('static', filename='style2.css')}}">
+
+    <title>Home page</title>
+</head>
+<body>
+    <div class = "main_bar">
+        <a href="/add_stocks" class ="bar_button"  > Enter Stock</a>
+        <a href="" class ="bar_button" > Veiw stock</a>
+        <a href="/add_customers" class ="bar_button" style="font-weight: 900;" > Add Customer</a>
+        <a href="/customers" class ="bar_button" > Veiw Customer</a>
+        <a href="/transactions" class ="bar_button" >Transaction History</a>
+        <a href="https://www.bloomberg.com/markets" class ="bar_button" > Bloomberg Markets</a>
+        <a href="/" class ="bar_button" > Log out</a>
+
+
+    </div>
+    <div class ="transaction_bar">
+
+        <form method="post" class ="login_container" >
+            <label for "name"></label>
+            <input type="text" id="name" name="name" class="inputs" maxlength="25" minlength="5" placeholder="name">
+            <label for "price"></label>
+            <input type="text" id="price" name="price" class="inputs" maxlength="17" minlength="1"  placeholder="email">
+            <button type = "submit" class= "login_button">Add customer!</button>
+
+           </form>
+        
+    </div>
+</body>
+</html>

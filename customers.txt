@@ -5,4 +5,7 @@ Customer 3
 Customer 4
 These transaction are accessed from a list 
 fkfkkroorkegrge
-KLKLKJLKLJKLJ
+KLKLKJLKLJKLJtesting1,email1
+testing2,email2
+testing1,email1
+rodrigeuz,rodriguez_is_gay

@@ -1,0 +1,8 @@
+gamestop,20,20
+wallmart,29,29
+skibi,34,34
+cooly,43,43
+nividia,50,50
+nividia,5,5
+testing1,5,4
+testing2,5,1
