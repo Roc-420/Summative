@@ -30,6 +30,11 @@ def get_lines(l): # converts maze txt into array
 def write_line(file,line):
     with open(file, "a") as myfile:
         myfile.write(line+ "\n")
+
+
+
+
+        
 @app.route("/", methods = ['GET','POST'])
 def initial():
     session['inputs'] = []

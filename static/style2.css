@@ -46,6 +46,30 @@ body {
     background: rgba(15, 135, 143, 0.349);
     border-radius: 0.8;
     padding: 1.2vw;
+    margin: 6px;
     text-align: center;
 
+}
+
+
+.login_container {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.inputs {
+    margin: 12px;
+    height:40px ;
+    width: 400px;
+    font-size: 27px;
+  
+}
+
+.login_button {
+    font-size: 27px;
+    margin-left: 5vw;
 }
