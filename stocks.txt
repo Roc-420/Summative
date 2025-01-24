@@ -1,1 +1,3 @@
-Sigmacoin,100,30
+nividia,12,7
+petsmart,11,11
+riddler,12,20
