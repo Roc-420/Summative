@@ -1,0 +1,2 @@
+cool_guy,email@.com
+mad_guy,anger@gmail.com

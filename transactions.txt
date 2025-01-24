@@ -1,6 +1,0 @@
-Transaction 1
-Transaction 2 
-Transaction 3
-These transaction are gained from a text file named transactions.txt
-add another one
-hi
